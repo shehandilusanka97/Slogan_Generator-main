@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-slogangenerator-staging-70008-authRole",
+      "UnauthRoleArn": "arn:aws:iam::944240114482:role/amplify-slogangenerator-staging-70008-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::944240114482:role/amplify-slogangenerator-staging-70008-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-slogangenerator-staging-70008-deployment",
+      "UnauthRoleName": "amplify-slogangenerator-staging-70008-unauthRole",
+      "StackName": "amplify-slogangenerator-staging-70008",
+      "StackId": "arn:aws:cloudformation:us-east-1:944240114482:stack/amplify-slogangenerator-staging-70008/12616200-93ad-11ec-a3ac-0a668739f2fd",
+      "AmplifyAppId": "d233mk35sufaou"
+    },
+    "categories": {
+      "auth": {
+        "SloganGenerator": {}
+      }
+    }
+  }
+}
