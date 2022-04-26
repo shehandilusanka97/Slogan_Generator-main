@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103878545217",
+    "project_id": "slogan-generator-7cfca",
+    "storage_bucket": "slogan-generator-7cfca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103878545217:android:8569cb587c2fd274149bc0",
+        "android_client_info": {
+          "package_name": "com.slogan_generator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103878545217-df3fh2hsil5beps35g9so8r0sjcinf9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuXX1-o1WY4qhwiAmpGQnyo9CmLlrQrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103878545217-df3fh2hsil5beps35g9so8r0sjcinf9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
