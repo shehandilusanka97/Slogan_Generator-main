@@ -54,7 +54,7 @@ const SignInScreen = () => {
             <CustomButton text={'Sign In'} onPress={handleSubmit(onSignInPress)}/>
             <CustomButton text='Forgot password?' onPress={onForgotPasswordPress} type={"TERTIARY"}/>
             {/*<SocialSignInButtons/>*/}
-            <CustomButton text="Don't have an accout? Create one" onPress={onSignUpPress} type={"TERTIARY"}/>
+            <CustomButton text="Don't have an account? Create one" onPress={onSignUpPress} type={"TERTIARY"}/>
 
         </View>
     );
