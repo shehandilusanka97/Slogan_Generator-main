@@ -166,6 +166,9 @@ const styles = StyleSheet.create({
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        fontSize: 14,
+
 
 
     },
@@ -176,6 +179,8 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
         backgroundColor: '#34495E',
+        marginLeft:2,
+        textAlign: 'center',
 
 
     },

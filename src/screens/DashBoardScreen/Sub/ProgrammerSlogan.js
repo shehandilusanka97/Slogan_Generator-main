@@ -43,84 +43,68 @@ const ProgrammerSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>It’s not a bug — it’s an undocumented feature
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>God is real … unless declared integer
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>There’s no place like 127.0.0.1.
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> It's ok. We speak computer
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> Software Problem? No Problem!
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> Your Computer's Personal Assistant
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> Frustrations? We Give Computer Solutions
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Knowledge is power
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>Low-level programming is good for the programmer’s soul
+                        <Text style={{  backgroundColor: 'white',  width: '85%',height: 47,borderColor: '#e8e8e8', borderWidth: 2,
+                        borderRadius: 5,paddingHorizontal: 10, marginVertical: 10,marginTop: 20,alignSelf: 'center',fontSize: 15,fontWeight: '900',alignItems: 'center',
+                        color: '#34495E', textTransform: 'uppercase'}}>Low-level programming is good for the programmer’s soul
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>Beware of bugs in the above code; I have only proved it correct, not tried it.
+                        <Text style={{  backgroundColor: 'white',  width: '85%',height: 47,borderColor: '#e8e8e8', borderWidth: 2,
+                        borderRadius: 5,paddingHorizontal: 10, marginVertical: 10,marginTop: 20,alignSelf: 'center',fontSize: 15,fontWeight: '900',alignItems: 'center',
+                        color: '#34495E', textTransform: 'uppercase'}}>Beware of bugs in the above code; I have only proved it correct
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -165,6 +149,8 @@ const styles = StyleSheet.create({
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        textTransform: 'uppercase',
 
 
     },
@@ -175,6 +161,8 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
         backgroundColor: '#34495E',
+        marginLeft:2,
+        textAlign: 'center',
 
 
     },

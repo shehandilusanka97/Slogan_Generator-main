@@ -112,7 +112,7 @@ const EngineerSlogan = () => {
 
 const styles = StyleSheet.create({
     root: {
-        backgroundColor: '#34495E',
+        backgroundColor: '#240046',
         padding: 15,
         marginBottom: 15,
     },
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
 
-        backgroundColor: '#ff9800',
+        backgroundColor: '#34495E',
         marginLeft:2,
         textAlign: 'center',
 

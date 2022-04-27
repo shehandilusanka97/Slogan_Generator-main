@@ -43,84 +43,69 @@ const GymSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Get In. Get Fit. Get on with Life
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Hustle to gain more muscle
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Lift heavy today if you want strength tomorrow
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Use your muscles or lose your muscles
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Get the body you want
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Live longer and stronger
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>Sweat in the gym is the guarantee stamp for your health
+                        <Text style={{  backgroundColor: 'white',  width: '85%',height: 47,borderColor: '#e8e8e8', borderWidth: 2,
+                        borderRadius: 5,paddingHorizontal: 10, marginVertical: 10,marginTop: 20,alignSelf: 'center',fontSize: 15,fontWeight: '900',alignItems: 'center',
+                        color: '#34495E', textTransform: 'uppercase'}}>Sweat in the gym is the guarantee stamp for your health
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>A healthy mind in a healthy body
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>The pain you suffer today is the sign of tomorrow’s victory
+                        <Text style={{  backgroundColor: 'white',  width: '85%',height: 47,borderColor: '#e8e8e8', borderWidth: 2,
+                        borderRadius: 5,paddingHorizontal: 10, marginVertical: 10,marginTop: 20,alignSelf: 'center',fontSize: 15,fontWeight: '900',alignItems: 'center',
+                        color: '#34495E', textTransform: 'uppercase'}
+                         }>The pain you suffer today is the sign of tomorrow’s victory
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Before your body, your mind comes to the gym
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -165,6 +150,8 @@ const styles = StyleSheet.create({
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        textTransform: 'uppercase',
 
 
     },
@@ -175,6 +162,9 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
         backgroundColor: '#34495E',
+        marginLeft:2,
+        textAlign: 'center',
+
 
 
     },

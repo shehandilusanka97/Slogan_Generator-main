@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
         height: 45,
         marginTop: 20,
         justifyItems: 'center',
-        backgroundColor: '#ff9800',
+        backgroundColor: '#34495E',
         alignItems: 'center',
         marginLeft:2,
         textAlign: 'center',
