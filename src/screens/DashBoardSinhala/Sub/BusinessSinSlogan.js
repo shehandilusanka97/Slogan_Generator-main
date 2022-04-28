@@ -44,84 +44,64 @@ const BusinessSinSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>දිගු සම්ප්රදායක් මත ගොඩනැගීම
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ලෝකය වෙනස් කරන නිර්මාණ
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>බුද්ධිමත් පියවරක්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> අපි ඔබව අපේ තටුව යටතට ගෙන ඇත
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඔබේ හෙට දවස අයිති කරගන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>විශ්වාසය. යන හැඟීම අන්යෝන්ය වේ
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ජයග්රහණය සහ උපයන්න! 💰
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>අනාරක්ෂිත ලෝකයක ආරක්ෂිත ස්ථානයක්!
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>අපි ඔබව දිරිමත් කරනවා
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>රන් දීමනාව
+                        <Text style={styles.input}>ටින් එක මත පවසන දේ හරියටම කරයි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -162,10 +142,12 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        fontSize: 14,
+
 
 
     },

@@ -44,84 +44,64 @@ const GymSinSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> එන්න. ශක්තිමත් වෙන්න. ජීවිතය ඉදිරියට ගෙන යන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඉක්මනින් මාංශපේශි වර්ධනය කර ගැනීමට
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඔබට හෙට ශක්තිය අවශ්‍ය නම් අද බර ඔසවන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඔබගේ මාංශපේශි භාවිතා කරන්න නැතහොත් නැති කරගන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඔබට අවශ්ය ශරීරය ලබා ගන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>දිගුකාලීන හා ශක්තිමත්ව ජීවත් වන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ව්‍යායාම් ශාලාවේ ඇති දහඩිය ඔබේ සෞඛ්‍යය සඳහා සහතික මුද්‍රාවයි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>නිරෝගී ශරීරයක් නිරෝගී මනසක්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>අද ඔබ විඳින වේදනාව හෙට ජයග්‍රහණයේ සළකුණයි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඔබේ ශරීරයට පෙර, ඔබේ මනස ව්‍යායාම් ශාලාවට පැමිණේ
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -162,10 +142,12 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        fontSize: 14,
+
 
 
     },

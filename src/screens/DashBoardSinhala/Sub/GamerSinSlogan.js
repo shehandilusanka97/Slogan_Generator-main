@@ -44,84 +44,64 @@ const GamerSinSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> බහු සංවේදී අත්දැකීමක්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> කළ නොහැකි දෙයක් නැත, එය ඉදිරිදර්ශනයේ කාරණයක් පමණි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ක්‍රීඩා කිරීමට වඩා හොඳ කාලයක් කිසිදා නොතිබුණි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> බාධා කිරීම් නවත්වන්න. තවත් ක්‍රීඩා කරන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඇසිපිය නොගසන්න, එසේ නොමැතිනම් ඔබට එය අහිමි වනු ඇත
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඔබ අභියෝගයට මුහුණ දෙනවාද?
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ජයග්රහණය සහ කොල්ලය! 💰
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>නිකං සෙල්ලං
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>පරිපූර්ණ ක්‍රීඩා වල හදවත
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>වගකීමෙන් සෙල්ලම් කරන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -162,10 +142,13 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        alignItems: 'center',
+        textAlign: 'center',
+        fontSize: 14,
+
 
 
     },

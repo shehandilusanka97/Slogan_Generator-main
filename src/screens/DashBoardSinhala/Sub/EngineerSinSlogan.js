@@ -44,84 +44,64 @@ const EngineerSinSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> සෑම දෙයකම සාක්ෂි සොයා ගැනීමට උත්සාහ කරනෙමු
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>සිදුරෙන් ආලෝකය ගෙන එන්න
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඉන්ජිනේරුවා ඉතිහාසය නිර්මාපකයෙකු වී ඇත
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඉංජිනේරුවෙකු නොමැතිව සමාජය කිසිවක් නැත
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> හැමෝම ඉංජිනේරුවෙක් වෙන්න සුදුසු නැහැ
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> සංසුන් වන්න, අපි ඉංජිනේරුවන්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඔබගේ විශ්වාසය අපගේ ලොකුම දිරිගැන්වීමයි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>වඩා හොඳ ගොඩනැගිල්ලක් පිළිබඳ දැක්මක්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> විශිෂ්ටත්වය සඳහා කැපවෙමු
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>නිර්මාණශීලීත්වය යනු බුද්ධියයි
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -162,7 +142,6 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',

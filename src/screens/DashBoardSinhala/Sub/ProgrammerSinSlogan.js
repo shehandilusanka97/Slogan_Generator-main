@@ -44,84 +44,64 @@ const ProgrammerSinSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>එය දෝෂයක් නොවේ - විශේෂංගයක්
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> පළමුව, ගැටලුව විසඳන්න.
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>127.0.0.1 වැනි තැනක් නැත.
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඒකට කමක් නැහැ. අපි පරිගණක වලට කතා කරනවා
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>මෘදුකාංග ගැටලුවක්ද? කිසිම ප්රශ්නයක් නැ!
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
 
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඔබේ පරිගණකයේ පුද්ගලික සහකාර
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>කලකිරීම්ද? අපි පරිගණක විසඳුම් ලබා දෙනවා
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>දැනුම බලය වේ
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ප්‍රතිස්ථාපනය කළ නොහැකි වීමට නම්, යමෙකු සැමවිටම වෙනස් විය යුතුය
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>ඉහත කේතයේ දෝෂ වලින් පරිස්සම් වන්න;
                         </Text>
-                        <Button style={styles.button} icon="plus" mode="contained"
-                                onPress={() => console.log('Pressed')}>
-
-                        </Button>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
             </ScrollView>
@@ -162,10 +142,12 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
+        textAlign: 'center',
+        fontSize: 14,
+
 
 
     },
