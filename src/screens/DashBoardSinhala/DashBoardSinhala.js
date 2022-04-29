@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import HeaderTabs from '../../components/HeaderTaps/HeaderTabs';
 import SinhalaCategories from '../../components/SinhalaCategories/SinhalaCategories';
 import SinhalaSearchBar from '../../components/SearchBar/SinhalaSearchBar';
 import SinhalaSloganDescription from '../../components/SinhalaSloganDescription/SinhalaSloganDescription'

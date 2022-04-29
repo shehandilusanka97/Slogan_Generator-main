@@ -99,7 +99,7 @@ const BusinessSlogan = () => {
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>Cool step
                         </Text>
-                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                        <Button style={styles.button}  icon="content-copy" mode="contained" 
                                 onPress={() => console.log('Pressed')}> </Button>
                     </View>
                 </View>
@@ -141,12 +141,13 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginTop: 20,
         alignSelf: 'center',
-        fontSize: 17,
+        fontSize: 15,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
         textTransform: 'uppercase',
-        textAlign: 'center'
+        textAlign: 'center',
+        paddingTop:5
 
 
     },
@@ -159,6 +160,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#34495E',
         marginLeft:2,
         textAlign: 'center',
+        padding:5,
+        paddingLeft:25,
+        
 
 
     },

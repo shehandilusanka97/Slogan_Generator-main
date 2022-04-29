@@ -7,6 +7,8 @@ import SocialSignInButtons from '../../components/SocialSignInButtons';
 import {useNavigation} from '@react-navigation/native';
 import {useForm} from 'react-hook-form';
 import {Auth} from 'aws-amplify'
+import AppLoader from '../../components/AppLoader/AppLoader';
+
 
 
 const SignInScreen = () => {
@@ -17,12 +19,14 @@ const SignInScreen = () => {
     const {control, handleSubmit, formState: {}} = useForm();
     const onSignInPress = async (data) => {
         if (loading) {
-            return;
+         return;   
         }
         setLoading(true);
         try {
+            <AppLoader/>
             await Auth.signIn(data.username, data.password);
            navigation.navigate('DashBoard');
+          
         } catch (e) {
             Alert.alert('Oops', e.message)
         }
@@ -55,11 +59,12 @@ const SignInScreen = () => {
             <CustomButton text='Forgot password?' onPress={onForgotPasswordPress} type={"TERTIARY"}/>
             {/*<SocialSignInButtons/>*/}
             <CustomButton text="Don't have an account? Create one" onPress={onSignUpPress} type={"TERTIARY"}/>
-
+            
         </View>
     );
 }
 const styles = StyleSheet.create({
+  
     root: {
         flex: 1,
         backgroundColor: '#ff9800',
