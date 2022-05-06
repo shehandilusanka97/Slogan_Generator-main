@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Image, SafeAreaView, ScrollView, StyleSheet, Text, Pressable, View} from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import BottomTabs from '../../../components/BottomTabs/BottomTabs';
 import {Divider} from 'react-native-elements';
 import {Button} from 'react-native-paper';
@@ -23,7 +23,7 @@ const DoctorSlogan = () => {
             <ScrollView showsVerticalScrollIndicator={false}>
                 <View style={styles.container}>
                 <Text style={{ backgroundColor:'#c5dedd' ,color:'#34495E' ,fontSize:17,fontWeight:'900'}}>Welcome..!!</Text>
-            <LottieView style={{marginTop:40, marginLeft:-10}} source={require('../../../../assets/Animation/doctor-and-patient-conversation.json')}
+            <LottieView style={{marginTop:35, marginLeft:-10}} source={require('../../../../assets/Animation/doctor-and-patient-conversation.json')}
         autoPlay loop/> 
          <Text style={styles.description}>There are some custom made slogans for Doctors..!!!</Text>     
                 </View>

@@ -20,7 +20,6 @@ const SignInScreen = () => {
         try {
              await Auth.signUp({
                 username,password,attributes:{email,name,preferred_username:username}
-
             }
             )
             navigation.navigate('ConfirmEmail',{username});

@@ -1,46 +1,34 @@
+import React, {useState} from 'react';
 import {Image, SafeAreaView, ScrollView, StyleSheet, Text, Pressable, View} from 'react-native';
 import BottomTabs from '../../../components/BottomTabs/BottomTabs';
 import {Divider} from 'react-native-elements';
-import JoinUs from '../../../../assets/images/join-us.jpg';
 import {Button} from 'react-native-paper';
-import React from 'react';
+import LottieView from 'lottie-react-native';
+import SearchBar from '../../../components/SearchBar/SearchBar';
 
 
-const ProgrammerSlogan = () => {
-
+const EngineerSlogan = () => {
+    const [data, setData] = useState('');
     return (
 
         <SafeAreaView style={{flex: 1}}>
             <View style={styles.root}>
-                <View style={styles.topContainer}>
-                    <View style={styles.metaContainer}>
-                        <View>
-                            <Text style={{color:'#eee'}}>Welcome</Text>
-                            <Text style={styles.description}>There are some custom made slogans for Programmers..!!!</Text>
-                        </View>
-                    </View>
-                </View>
+            <SearchBar data={data} onChangeValue={(newValue)=>setData(newValue)}
+                       onValueSubmitted={()=> alert(data)}/>
+           
             </View>
 
-
             <ScrollView showsVerticalScrollIndicator={false}>
+            <View style={styles.container}>
+                <Text style={{ backgroundColor:'#c5dedd' ,color:'#34495E' ,fontSize:17,fontWeight:'900'}}>Welcome..!!</Text>
+            <LottieView style={{marginTop:35, marginLeft:-10}} source={require('../../../../assets/Animation/programmer.json')}
+        autoPlay loop/> 
+         <Text style={styles.description}>There are some custom made slogans for programmers..!!!</Text>     
+                </View>
+
                 <View style={{alignItems: 'center', padding: 15}}>
-
-                    <View style={styles.container}>
-                        <View style={styles.topContainer}>
-                            <View style={styles.metaContainer}>
-                                <View>
-                                    <Text style={styles.description}>You can create slogan with us</Text>
-                                </View>
-                                <Pressable>
-                                    <Text style={styles.buttonText}>Join with us</Text>
-                                </Pressable>
-                            </View>
-                            <Image source={JoinUs} style={styles.avatar} />
-                        </View>
-                    </View>
-
-                    <View style={{flexDirection: 'row'}}>
+                   
+                <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}>It’s not a bug — it’s an undocumented feature
                         </Text>
                         <Button style={styles.button}  icon="content-copy" mode="contained"
@@ -115,25 +103,32 @@ const ProgrammerSlogan = () => {
 };
 
 const styles = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        backgroundColor:'#c5dedd',
+        zIndex:1,
+        height:210,
+        padding:5,
+        width:'97%',
+        alignSelf:'center',
+        borderRadius: 10,
+
+    },
     root: {
-        backgroundColor: '#34495E',
-        padding: 15,
+        marginTop:5,
         marginBottom: 15,
+        height:60,
+        width:'97%',
+       alignSelf:'center',
+        
     },
     logo: {
         width: 66,
         height: 66,
         alignSelf: 'center',
 
-
     },
-    text: {
-        fontSize: 17,
-        fontWeight: '900',
-        color: 'white',
-        alignSelf: 'center',
-        marginTop: 5,
-    },
+  
     input: {
         backgroundColor: 'white',
         width: '85%',
@@ -144,7 +139,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         marginVertical: 10,
         marginTop: 20,
-        alignSelf: 'center',
         fontSize: 15,
         fontWeight: '900',
         alignItems: 'center',
@@ -152,7 +146,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         textTransform: 'uppercase',
         paddingTop:5
-
 
     },
     button: {
@@ -162,6 +155,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
         backgroundColor: '#34495E',
+        alignItems: 'center',
         marginLeft:2,
         textAlign: 'center',
         padding:5,
@@ -169,47 +163,12 @@ const styles = StyleSheet.create({
 
 
     },
-    // ""''''''''
-    container: {
-        backgroundColor: '#0891b2',
-        paddingVertical: 16,
-        paddingHorizontal: 12,
-        borderRadius: 5,
-        alignSelf: 'center',
-        width: 475,
-        maxWidth: '100%'
-    },
-
-
-    metaContainer: {
-        justifyContent: 'space-between'
-    },
-    topContainer: {
-        flexDirection: 'row',
-        justifyContent: 'space-between'
-    },
-    avatar: {
-        height: 70,
-        width:70,
-        borderRadius: 100
-    },
     description: {
-        color: 'white',
-        marginTop: 5,
-        fontSize: 18
+        color: 'black',
+        fontSize: 15, 
+        backgroundColor:'#c5dedd' ,
+        fontWeight:'900',
+       
     },
-    button1: {
-        backgroundColor: '#22d3ee',
-        alignSelf: 'flex-start',
-        paddingHorizontal: 12,
-        paddingVertical: 4,
-        borderRadius: 2
-    },
-    buttonText: {
-        fontWeight: 'bold',
-        color: 'white',
-        textTransform: 'uppercase',
-        fontSize: 14
-    }
 });
-export default ProgrammerSlogan;
+export default EngineerSlogan;

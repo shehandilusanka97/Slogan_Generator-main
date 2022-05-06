@@ -1,15 +1,13 @@
 import React from 'react';
 import {Image, SafeAreaView, ScrollView, StyleSheet, Text, Pressable, View} from 'react-native';
+import BottomTabs from '../../../components/BottomTabs/BottomTabs';
 import {Divider} from 'react-native-elements';
 import JoinUs from '../../../../assets/images/join-us.jpg';
 import {Button} from 'react-native-paper';
 import SinhalaBottomTabs from '../../../components/BottomTabs/SinhalaBottomTabs';
-import SinhalaSearchBar from '../../../components/SearchBar/SinhalaSearchBar';
 
 
-
-const DoctorSinSlogan = () => {
-    const [data,setData] = useState('');
+const EngineerSinSlogan = () => {
 
     return (
 
@@ -147,9 +145,9 @@ const styles = StyleSheet.create({
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
-
         textAlign: 'center',
-          fontSize: 14,
+        fontSize: 14,
+
 
 
     },
@@ -162,7 +160,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#34495E',
         marginLeft:2,
         textAlign: 'center',
-
 
 
     },
@@ -209,4 +206,4 @@ const styles = StyleSheet.create({
         fontSize: 14
     }
 });
-export default DoctorSinSlogan;
+export default EngineerSinSlogan;
