@@ -1,59 +1,45 @@
-import React from 'react';
-import {Image, SafeAreaView, ScrollView, StyleSheet, Text, Pressable, View} from 'react-native';
+import React, {useState} from 'react';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import BottomTabs from '../../../components/BottomTabs/BottomTabs';
 import {Divider} from 'react-native-elements';
-import JoinUs from '../../../../assets/images/join-us.jpg';
 import {Button} from 'react-native-paper';
-import SinhalaBottomTabs from '../../../components/BottomTabs/SinhalaBottomTabs';
+import LottieView from 'lottie-react-native';
+import SinhalaSearchBar from '../../../components/SearchBar/SinhalaSearchBar';
 
 
-const EngineerSinSlogan = () => {
-
+const DoctorSlogan = () => {
+    const [data, setData] = useState('');
     return (
 
         <SafeAreaView style={{flex: 1}}>
+           
             <View style={styles.root}>
-                <View style={styles.topContainer}>
-                    <View style={styles.metaContainer}>
-                        <View>
-                            <Text style={{color:'#eee'}}>ආයුබෝවන්</Text>
-                            <Text style={styles.description}>මෙහි ඉංජිනේරුවන් සදහා සාදන ලද සටන්පාඨ කිහිපයක් ඇත..!!!</Text>
-                        </View>
-                    </View>
-                </View>
+            <SinhalaSearchBar data={data} onChangeValue={(newValue)=>setData(newValue)}
+                       onValueSubmitted={()=> alert(data)}/>
+           
             </View>
 
 
             <ScrollView showsVerticalScrollIndicator={false}>
+                <View style={styles.container}>
+                <Text style={{ backgroundColor:'#c5dedd' ,color:'#34495E' ,fontSize:14,fontWeight:'900'}}>ආයුබෝවන්..!!</Text>
+            <LottieView style={{marginTop:35, marginLeft:-10}} source={require('../../../../assets/Animation/engineering.json')}
+        autoPlay loop/> 
+         <Text style={styles.description}>මෙහි ඉංජිනේරුවන් සදහා සාදන ලද සටන්පාඨ කිහිපයක් ඇත..!!!</Text>     
+                </View>
+               
                 <View style={{alignItems: 'center', padding: 15}}>
 
-                    <View style={styles.container}>
-                        <View style={styles.topContainer}>
-                            <View style={styles.metaContainer}>
-                                <View>
-                                    <Text style={styles.description}>අප සමග සටන්පාඨ නිර්මාණය කිරීමට</Text>
-                                </View>
-                                <Pressable>
-                                    <Text style={styles.buttonText}>එක්වන්න අප සමග</Text>
-                                </Pressable>
-                            </View>
-                            <Image source={JoinUs} style={styles.avatar} />
-                        </View>
-                    </View>
+                  
+              
 
-                    <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}> සෑම දෙයකම සාක්ෂි සොයා ගැනීමට උත්සාහ කරනෙමු
+<View style={{flexDirection: 'row'}}>
+                        <Text style={styles.input}>නිර්මාණශීලීත්වය යනු බුද්ධියයි
                         </Text>
                         <Button style={styles.button}  icon="content-copy" mode="contained"
                                 onPress={() => console.log('Pressed')}> </Button>
                     </View>
-                    <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>සිදුරෙන් ආලෝකය ගෙන එන්න
-                        </Text>
-                        <Button style={styles.button}  icon="content-copy" mode="contained"
-                                onPress={() => console.log('Pressed')}> </Button>
-                    </View>
-
+                  
                     <View style={{flexDirection: 'row'}}>
                         <Text style={styles.input}> ඉන්ජිනේරුවා ඉතිහාසය නිර්මාපකයෙකු වී ඇත
                         </Text>
@@ -97,8 +83,15 @@ const EngineerSinSlogan = () => {
                         <Button style={styles.button}  icon="content-copy" mode="contained"
                                 onPress={() => console.log('Pressed')}> </Button>
                     </View>
-                    <View style={{flexDirection: 'row'}}>
-                        <Text style={styles.input}>නිර්මාණශීලීත්වය යනු බුද්ධියයි
+  <View style={{flexDirection: 'row'}}>
+                        <Text style={styles.input}>සිදුරෙන් ආලෝකය ගෙන එන්න
+                        </Text>
+                        <Button style={styles.button}  icon="content-copy" mode="contained"
+                                onPress={() => console.log('Pressed')}> </Button>
+                    </View>
+                    
+ <View style={{flexDirection: 'row'}}>
+                        <Text style={styles.input}> සෑම දෙයකම සාක්ෂි සොයා ගැනීමට උත්සාහ කරනෙමු
                         </Text>
                         <Button style={styles.button}  icon="content-copy" mode="contained"
                                 onPress={() => console.log('Pressed')}> </Button>
@@ -106,16 +99,31 @@ const EngineerSinSlogan = () => {
                 </View>
             </ScrollView>
             <Divider width={1}/>
-            <SinhalaBottomTabs/>
+            <BottomTabs/>
         </SafeAreaView>
     );
 };
 
 const styles = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        backgroundColor:'#c5dedd',
+        zIndex:1,
+        height:210,
+        padding:5,
+        width:'97%',
+        alignSelf:'center',
+        borderRadius: 10,
+
+
+    },
     root: {
-        backgroundColor: '#34495E',
-        padding: 15,
+        marginTop:5,
         marginBottom: 15,
+        height:60,
+        width:'97%',
+       alignSelf:'center',
+        
     },
     logo: {
         width: 66,
@@ -124,13 +132,7 @@ const styles = StyleSheet.create({
 
 
     },
-    text: {
-        fontSize: 17,
-        fontWeight: '900',
-        color: 'white',
-        alignSelf: 'center',
-        marginTop: 5,
-    },
+  
     input: {
         backgroundColor: 'white',
         width: '85%',
@@ -141,13 +143,13 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         marginVertical: 10,
         marginTop: 20,
-        alignSelf: 'center',
+        fontSize: 13,
         fontWeight: '900',
         alignItems: 'center',
         color: '#34495E',
         textAlign: 'center',
-        fontSize: 14,
-
+        textTransform: 'uppercase',
+        paddingTop:5
 
 
     },
@@ -158,52 +160,21 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyItems: 'center',
         backgroundColor: '#34495E',
+        alignItems: 'center',
         marginLeft:2,
         textAlign: 'center',
+        padding:5,
+        paddingLeft:25,
 
 
-    },
-    // ""''''''''
-    container: {
-        backgroundColor: '#0891b2',
-        paddingVertical: 16,
-        paddingHorizontal: 12,
-        borderRadius: 5,
-        alignSelf: 'center',
-        width: 475,
-        maxWidth: '100%'
-    },
-
-
-    metaContainer: {
-        justifyContent: 'space-between'
-    },
-    topContainer: {
-        flexDirection: 'row',
-        justifyContent: 'space-between'
-    },
-    avatar: {
-        height: 70,
-        width:70,
-        borderRadius: 100
     },
     description: {
-        color: 'white',
-        marginTop: 5,
-        fontSize: 15
+        color: 'black',
+        fontSize: 13, 
+        backgroundColor:'#c5dedd' ,
+        fontWeight:'900',
+       
     },
-    button1: {
-        backgroundColor: '#22d3ee',
-        alignSelf: 'flex-start',
-        paddingHorizontal: 12,
-        paddingVertical: 4,
-        borderRadius: 2
-    },
-    buttonText: {
-        fontWeight: 'bold',
-        color: 'white',
-        textTransform: 'uppercase',
-        fontSize: 14
-    }
+  
 });
-export default EngineerSinSlogan;
+export default DoctorSlogan;
