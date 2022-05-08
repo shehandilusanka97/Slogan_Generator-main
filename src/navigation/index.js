@@ -21,7 +21,7 @@ import GamerSinSlogan from '../screens/DashBoardSinhala/Sub/GamerSinSlogan';
 import ProgrammerSinSlogan from '../screens/DashBoardSinhala/Sub/ProgrammerSinSlogan';
 import GymSinSlogan from '../screens/DashBoardSinhala/Sub/GymSinSlogan';
 import BusinessSinSlogan from '../screens/DashBoardSinhala/Sub/BusinessSinSlogan';
-import HomeScreen from '../screens/HomeScreen';
+import ChatBotScreen from '../screens/ChatbotScreen/ChatBot';
 
 const Stack = createNativeStackNavigator();
 const Navigation=()=>{
@@ -47,7 +47,7 @@ const Navigation=()=>{
                     <Stack.Screen name="ProgrammerSin" component={ProgrammerSinSlogan}/>
                     <Stack.Screen name="GymSin" component={GymSinSlogan}/>
                     <Stack.Screen name="BusinessSin" component={BusinessSinSlogan}/>
-                    <Stack.Screen name="Home" component={HomeScreen}/>
+                    <Stack.Screen name="ChatBot" component={ChatBotScreen}/>
 
                 </Stack.Navigator>
             </NavigationContainer>

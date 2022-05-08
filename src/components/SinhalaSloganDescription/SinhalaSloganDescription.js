@@ -19,12 +19,9 @@ export default function SloganDescription(){
 };
 const SloganInfo=()=>(
     <View style={{marginTop:10}}>
-        <Text style={{fontSize:13,fontWeight:'bold', color:'black'}}>සිංහල සහ ඉංග්‍රීසි සටන් පාඨ උත්පාදකට යන්ත්රය
+        <Text style={{fontSize:13,fontWeight:'bold', color:'black', marginBottom:10}}>සිංහල සහ ඉංග්‍රීසි සටන් පාඨ උත්පාදකට යන්ත්රය
             සාදරයෙන් පිළිගනිමු..!!!</Text>
-        <Text  style={{fontSize:12, color:'grey',marginTop:5}}>ඔබට නිර්මාණාත්මක සිංහල සහ ඉංග්‍රීසි සටන් පාඨ ස්වංක්‍රීයව උත්පාදනය කර
-            හෝ සකසන ලද සටන් පාඨ මෙහිදී ලබාගත හැක.
-            පරිශීලකයාට ඔවුන්ගේ නිර්මාණාත්මක සටන් පාඨ අප වෙත ඉදිරිපත් කළ හැකිය.එය සදහා පහතින් ඇති
-            "අප අමතන්න" බොත්තම ක්ලික් කරන්න.</Text>
+        
     </View>
 )
 

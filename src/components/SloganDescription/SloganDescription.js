@@ -22,12 +22,9 @@ export default function SloganDescription(){
 };
 const SloganInfo=()=>(
     <View style={{marginTop:10}}>
-        <Text style={{fontSize:15,fontWeight:'bold', color:'black'}}>Welcome to Sinhala and English Slogan
+        <Text style={{fontSize:15,fontWeight:'bold', marginBottom:12,  color:'black'}}>Welcome to Sinhala and English Slogan
             Generator..!!!</Text>
-        <Text  style={{fontSize:13, color:'grey',marginTop:5}}>You can generate or custom made creative English
-            and Sinhala slogans.
-            The user can come up with their creative slogan and submit it to us.For a custom made slogan use the
-            "Contact Us" button</Text>
+      
     </View>
 )
 

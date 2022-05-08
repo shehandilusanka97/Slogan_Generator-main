@@ -3,6 +3,10 @@ import React, {Component} from 'react';
 import {GiftedChat,Bubble} from 'react-native-gifted-chat';
 import { Dialogflow_V2 } from 'react-native-dialogflow';
 import { dialogflowConfig } from '../../../env';
+import FAButton from '../../components/FAB/FAB';
+import {Divider} from 'react-native-elements';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import BottomTabs from '../../components/BottomTabs/BottomTabs';
 
 
 const botAvatar = require('../../../assets/icons/chatbot.png');
@@ -102,7 +106,8 @@ class ChatBot extends Component {
    
     render() {
         return (
-                <View style={{flex:1, backgroundColor:'white'}}>
+            <>
+                <View style={{flex:1,marginBottom:5,height:1400, backgroundColor:'white'}}>
                     <GiftedChat
                      messages={this.state.messages} 
                      onSend={(message)=> this.onSend(message)} 
@@ -111,8 +116,10 @@ class ChatBot extends Component {
                      renderBubble={this.renderBubble}
                      user={{_id:1}}
                      />
-
                 </View>
+                <Divider width={1}/>
+           {/* <BottomTabs/> */}
+                </>
         );
     }
 };

@@ -6,6 +6,7 @@ import SinhalaSloganDescription from '../../components/SinhalaSloganDescription/
 import {Divider} from 'react-native-elements';
 import SinhalaBottomTabs from '../../components/BottomTabs/SinhalaBottomTabs';
 import {useNavigation} from '@react-navigation/native';
+import ChatBotDescSin from '../../components/ChatBotDesc/ChatBotDescSin';
 
 const DashBoardSinhala=() =>{
     const navigation = useNavigation();
@@ -48,11 +49,11 @@ const DashBoardSinhala=() =>{
             <ScrollView showsVerticalScrollIndicator={false}>
                 <SinhalaCategories/>
                 <SinhalaSloganDescription/>
-                <SinhalaSloganDescription/>
+                <ChatBotDescSin/>
 
             </ScrollView>
             <Divider width={1}/>
-            <SinhalaBottomTabs/>
+            {/* <SinhalaBottomTabs/> */}
             </View>
         </SafeAreaView>
     )

@@ -3,10 +3,11 @@ import {SafeAreaView, ScrollView, StyleSheet, View, TouchableOpacity, Text} from
 import SearchBar from '../../components/SearchBar/SearchBar';
 import Categories from '../../components/Categories/Categories';
 import SloganDescription from '../../components/SloganDescription/SloganDescription';
-import BottomTabs from '../../components/BottomTabs/BottomTabs';
 import {useNavigation} from '@react-navigation/native';
-
 import {Divider} from 'react-native-elements';
+import ChatBotDesc from '../../components/ChatBotDesc/ChatBotDesc';
+import FAButton from '../../components/FAB/FAB';
+
 const DashBoardScreen =() =>{
     const [data,setData] = useState('');
     const [activeTab,setActiveTab]=useState('English');
@@ -49,10 +50,11 @@ const DashBoardScreen =() =>{
 
             <Categories/>
                 <SloganDescription/>
-                <SloganDescription/>
+                <ChatBotDesc/>
             </ScrollView>
             <Divider width={1}/>
-            <BottomTabs/>
+            {/* <BottomTabs/> */}
+           
         </SafeAreaView>
     )
 };

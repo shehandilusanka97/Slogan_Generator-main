@@ -12,7 +12,7 @@ import ProgrammerSlogan from './src/screens/DashBoardScreen/Sub/ProgrammerSlogan
 import DoctorSinSlogan from './src/screens/DashBoardSinhala/Sub/DoctorSinSlogan';
 import EngineerSinSlogan from './src/screens/DashBoardSinhala/Sub/EngineerSinSlogan';
 import ChatBot from './src/screens/ChatbotScreen/ChatBot';
-import HomeScreen from './src/screens/HomeScreen';
+import HomeScreen from './src/components/ChatBotDesc/ChatBotDesc';
 import GymSinSlogan from './src/screens/DashBoardSinhala/Sub/GymSinSlogan';
 import GamerSinSlogan from './src/screens/DashBoardSinhala/Sub/GamerSinSlogan';
 import BusinessSinSlogan from './src/screens/DashBoardSinhala/Sub/BusinessSinSlogan';
@@ -25,7 +25,7 @@ const App = () => {
     return (
         <SafeAreaView style={styles.root}>
              <Navigation/>
-             {/*<HomeScreen/>*/}
+             {/* <HomeScreen/> */}
         </SafeAreaView>
     );
 };
