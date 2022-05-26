@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import {Image, SafeAreaView, ScrollView, StyleSheet, Text, Pressable, View} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import BottomTabs from '../../../components/BottomTabs/BottomTabs';
-import {Divider} from 'react-native-elements';
 import {Button} from 'react-native-paper';
 import LottieView from 'lottie-react-native';
 import SearchBar from '../../../components/SearchBar/SearchBar';
@@ -92,7 +91,6 @@ const EngineerSlogan = () => {
                     </View>
                 </View>
             </ScrollView>
-            <Divider width={1}/>
             <BottomTabs/>
         </SafeAreaView>
     );

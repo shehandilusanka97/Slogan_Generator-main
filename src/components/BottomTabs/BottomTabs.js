@@ -11,9 +11,9 @@ export default function BottomTabs(){
         navigation.navigate('DashBoard');
     }
     return(
-        <View style={{margin:10, marginHorizontal:30, justifyContent:'center'}}>
+        <View style={{margin:10, marginHorizontal:150, justifyContent:'center'}}>
             <TouchableOpacity onPress={DashOnPressed}>
-            <Icon icon='home' text={"Home"} />
+            <Icon icon='home' text={"Home Page"} />
             </TouchableOpacity>
            
            

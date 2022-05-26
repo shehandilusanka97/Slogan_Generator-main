@@ -17,15 +17,18 @@ import GymSinSlogan from './src/screens/DashBoardSinhala/Sub/GymSinSlogan';
 import GamerSinSlogan from './src/screens/DashBoardSinhala/Sub/GamerSinSlogan';
 import BusinessSinSlogan from './src/screens/DashBoardSinhala/Sub/BusinessSinSlogan';
 import SignUpScreen from './src/screens/SignUpScreen';
-
-
+import Testing1 from './src/screens/Testing1';
+import Testing2 from './src/screens/Testing2';
+import Testing3 from './src/screens/Testing3';
+import SearchTest from './src/screens/SearchTest'
 
 Amplify.configure(config);
 const App = () => {
     return (
         <SafeAreaView style={styles.root}>
              <Navigation/>
-             {/* <HomeScreen/> */}
+             {/* <Testing3/> */}
+            
         </SafeAreaView>
     );
 };

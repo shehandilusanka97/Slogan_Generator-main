@@ -5,6 +5,7 @@ import {Divider} from 'react-native-elements';
 import {Button} from 'react-native-paper';
 import LottieView from 'lottie-react-native';
 import SinhalaSearchBar from '../../../components/SearchBar/SinhalaSearchBar';
+import SinhalaBottomTabs from '../../../components/BottomTabs/SinhalaBottomTabs';
 
 
 const DoctorSlogan = () => {
@@ -95,8 +96,7 @@ const DoctorSlogan = () => {
                     </View>
                 </View>
             </ScrollView>
-            <Divider width={1}/>
-            <BottomTabs/>
+            <SinhalaBottomTabs/>
         </SafeAreaView>
     );
 };

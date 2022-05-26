@@ -92,7 +92,6 @@ const EngineerSlogan = () => {
                     </View>
                 </View>
             </ScrollView>
-            <Divider width={1}/>
             <BottomTabs/>
         </SafeAreaView>
     );

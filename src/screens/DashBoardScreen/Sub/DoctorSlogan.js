@@ -16,7 +16,6 @@ const DoctorSlogan = () => {
             <View style={styles.root}>
             <SearchBar data={data} onChangeValue={(newValue)=>setData(newValue)}
                        onValueSubmitted={()=> alert(data)}/>
-           
             </View>
 
 
@@ -95,7 +94,6 @@ const DoctorSlogan = () => {
                     </View>
                 </View>
             </ScrollView>
-            <Divider width={1}/>
             <BottomTabs/>
         </SafeAreaView>
     );
